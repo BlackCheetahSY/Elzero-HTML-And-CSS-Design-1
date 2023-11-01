@@ -358,46 +358,46 @@ body > section:nth-of-type(even) {
 
 
 
-/* [Portofolio]=> */
-.portofolio .holder {
+/* [Portfolio]=> */
+.portfolio .holder {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 30px;
 }
 
-.portofolio .card {
+.portfolio .card {
   box-shadow: 0px 4px 18px 0px rgba(36,39,46,0.1);
   overflow: hidden;
 }
 
-.portofolio .card img {
+.portfolio .card img {
   width: 100%;
   cursor: pointer;
   transition: transform var(--movement-time);
 }
 
-.portofolio .card img:hover {
+.portfolio .card img:hover {
   transform: scale(1.3);
 }
 
-.portofolio .card .info {
+.portfolio .card .info {
   color: var(--secondary-color);
   background-color: white;
   padding: 23px;
   transform: scale(1);
 }
 
-.portofolio .card .info p {
+.portfolio .card .info p {
   font-size: var(--small-text);
   line-height: var(--row-height);
 }
 
-.portofolio .card .info h3 {
+.portfolio .card .info h3 {
   padding-bottom: 10px;
   font-weight: 800;
   letter-spacing: -0.5px;
 }
-/* <=[Portofolio] */
+/* <=[Portfolio] */
 
 
 
